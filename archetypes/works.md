@@ -10,6 +10,5 @@ description: ""
 params:
     image:  
         x: ""
-        _2x: ""
 ## The content is used for the body of the project
 ---

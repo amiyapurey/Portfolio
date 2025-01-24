@@ -12,7 +12,7 @@
         <div class="container px-0">
             {{ with .Params.image }}
             <div class="cover-image-container">
-                <img src="{{ .x | relURL }}" srcset="{{ .x | relURL }} 1x, {{ ._2x | relURL }} 2x" alt="{{ $.Title }}"
+                <img src="{{ .x | relURL }}" srcset="{{ .x | relURL }} 1x" alt="{{ $.Title }}"
                     class="cover-image" 
                 />
             </div>
