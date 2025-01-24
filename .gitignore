@@ -1,0 +1,19 @@
+# Hugo project
+public/
+resources/
+node_modules/
+.DS_Store
+dist/
+tmp/
+.cache/
+*.log
+*.swp
+*.bak
+*.tmp
+*.orig
+*.rej
+*.sublime-project
+*.sublime-workspace
+.idea/
+.vscode/
+*.iml

@@ -1,0 +1,48 @@
+{{ if .Site.Data.homepage.works.enable }}
+<section id="works" class="section-work section section--border-bottom rad-animation-group flex-grow-1">
+    <div class="container">
+        <div class="row rad-fade-down">
+            <div class="work-header">
+                <h2>{{ i18n "works_title" }}</h2>
+
+                <div class="col-12 col-lg-4">
+                    <a href='{{ i18n "work_button_url" | absURL }}' class="btn btn-frameless  w-20"
+                        rel="noopener noreferrer">
+                        {{ if .Site.Data.homepage.experience.button3.icon }}
+                        <i class="{{ .Site.Data.homepage.experience.button3.icon }}"></i>
+                        {{ end }}
+                        {{ i18n "work_button" }}
+                    </a>
+                </div>
+            </div>
+            <p class="lead">{{ i18n "works_description" }}</p>
+            <div class="work-grid">
+                {{ $baseLangSite := .Sites.Default }}
+                {{ $xp := (where .Site.RegularPages.ByDate "Type" "works") }}
+                {{ $xp = $xp | lang.Merge (where $baseLangSite.RegularPages.ByDate.Reverse "Type" "works") }}
+
+                {{ $xpCount := len $xp }}
+                {{ $totalCount := .Site.Params.homepageWorkCount }}
+
+                {{ if not .IsHome }}
+                {{ $totalCount = len $xp }}
+                {{ end }}
+
+                {{ range first $totalCount (sort $xp "Date" "desc") }}
+                <a class="work-card" href="{{.Permalink | relURL }}">
+                    <div class="card-image">
+                        {{ with resources.Get .Params.image.x }}
+                        <img src="{{ .RelPermalink }}" alt="{{ .Params.title }}" class="img-cover" />
+                        {{ end }}
+                    </div>
+                    <div class="card-content">
+                        <h3>{{ .Params.title }}</h3>
+                        <p>{{ .Params.description }}</p>
+                    </div>
+                </a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
