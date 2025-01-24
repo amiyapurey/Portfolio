@@ -10,7 +10,7 @@ link: "https://www.adrianmoreno.info" # optional URL to link the logo to
 params:
     image:  
         x: "images/works/swissfintech.jpg"
-        _2x: "images/works/swissfintech@2x.jpg"
+        _2x: "images/works/swissfintech-2x.jpg"
 
 ## The content is used for the description of the project
 ---
