@@ -5,7 +5,7 @@ title: "Market and Customer Insights Strategist"
 jobTitle: "Market and Customer Insights Strategist"
 company: "Unleashed Capital GmbH (HAVE Technology GmbH)"
 location: "Stavanger, Noruega"
-duration: "2024-ahora"
+duration: "2022-2023"
 ---
 ### Fintech, Stealth mode startup
 
