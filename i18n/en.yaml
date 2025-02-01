@@ -12,10 +12,10 @@
 
 ## Header
 - id: "logo_text1"
-  translation: "Adritian"
+  translation: "Amiya"
 
 - id: "logo_text2"
-  translation: "Demo"
+  translation: "Purey"
 
 - id: "nav_home"
   translation: "HOME"
@@ -53,10 +53,10 @@
 
 ## Homepage showcase
 - id: "showcase_title"
-  translation: "Welcome to my Website"
+  translation: "Business Analyst, Market and Consumer Insights"
 
 - id: "showcase_subtitle"
-  translation: "Let's dive into an example"
+  translation: "Let's dive into my profile"
 
 - id: "showcase_description"
   translation: "This is a high performance theme for the Hugo static site generator. This sample content can be edited in the locale files (as the theme supports translations). <br>You can download this theme from <a target='_blank' href='https://github.com/zetxek/adritian-free-hugo-theme'>github</a>, and see it live <a target='_blank' href='https://adritian-demo.vercel.app/'>as a demo site</a> or <a target='_blank' href='https://www.adrianmoreno.info'>a real one</a>.<br>You can find this content to edit in the theme.yaml file."
@@ -74,11 +74,9 @@
 
 - id: "about_content"
   translation:  <p class="lead">
-      Here you can add some information about you. A small excerpt that describes 
-      your experience, for example.   
+      Dynamic Market and Customer Insights Strategist with over four years of experience leveraging data analytics to drive strategic decision-making and support product innovation.   
       </p>
-      <p class="lead">
-      Dynamic Market and Customer Insights Strategist with over four years of experience leveraging data analytics to drive strategic decision-making and support product innovation. 
+      <p class="lead"> 
       Expertise in business analytics, market sizing, competitive analysis, and advanced data visualization tools such as Power BI and Tableau. I deliver what enhances business strategies through actionable recommendations. 
       Proven track record in managing substantial research projects and collaborating with cross-functional teams to align objectives with data-driven insights. 
     </p>
