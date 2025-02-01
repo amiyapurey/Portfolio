@@ -93,7 +93,8 @@
   translation: "Works"
 
 - id: "works_description"
-  translation: "This is where you can highlight some of your works. Projects, clients, etc."
+  translation: "Expertise in business analytics, market sizing, competitive analysis, and advanced data visualization tools such as Power BI and Tableau. I deliver what enhances business strategies through actionable recommendations. 
+      Proven track record in managing substantial research projects and collaborating with cross-functional teams to align objectives with data-driven insights."
 
 - id: "work_button"
   translation: "View all"
