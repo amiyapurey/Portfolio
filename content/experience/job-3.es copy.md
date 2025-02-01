@@ -1,12 +1,16 @@
 ---
 date: 2024-01-01T00:00:00+01:00
 draft: false
-title: "Trabajo #3"
-jobTitle: "Director Ejecutivo"
-company: "Internet Affairs Inc."
+title: "Market and Customer Insights Strategist"
+jobTitle: "Market and Customer Insights Strategist"
+company: "Unleashed Capital GmbH (HAVE Technology GmbH)"
 location: "Stavanger, Noruega"
 duration: "2024-ahora"
 ---
-### Arreglando el mundo, un byte a la vez
+### Fintech, Stealth mode startup
 
-¡Adquisición hostil - ¿quién es el jefe ahora?!
+•	Led consumer research projects worth more than €20,000 (surveys, focus groups). Delivered strategic insights on pricing and feature development through Python and Qualtrics XM.
+
+•	Conducted competitor benchmarking, market sizing, user persona & psychographic analytics for product and feature development. 
+
+•	Presented actionable recommendations resulting from fintech market analysis, customer trends, and pain points to business stakeholders, reducing the market launch risk by 40%.
